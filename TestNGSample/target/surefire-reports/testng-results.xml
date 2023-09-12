@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-12T21:16:37 IST" name="Suite" finished-at="2023-09-12T21:17:21 IST" duration-ms="44640">
+    <groups>
+    </groups>
+    <test started-at="2023-09-12T21:16:37 IST" name="Test" finished-at="2023-09-12T21:17:21 IST" duration-ms="44640">
+      <class name="test.testng.DemoTest">
+        <test-method signature="BaseUrl()[pri:1, instance:test.testng.DemoTest@bae7dc0]" started-at="2023-09-12T21:16:37 IST" name="BaseUrl" finished-at="2023-09-12T21:16:41 IST" duration-ms="3905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseUrl -->
+        <test-method signature="CookiePopupTest()[pri:2, instance:test.testng.DemoTest@bae7dc0]" started-at="2023-09-12T21:16:41 IST" name="CookiePopupTest" finished-at="2023-09-12T21:16:56 IST" duration-ms="15181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CookiePopupTest -->
+        <test-method signature="ProductButtonTest()[pri:3, instance:test.testng.DemoTest@bae7dc0]" started-at="2023-09-12T21:16:56 IST" name="ProductButtonTest" finished-at="2023-09-12T21:17:09 IST" duration-ms="12734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductButtonTest -->
+        <test-method signature="ProcessDivery()[pri:4, instance:test.testng.DemoTest@bae7dc0]" started-at="2023-09-12T21:17:09 IST" name="ProcessDivery" finished-at="2023-09-12T21:17:19 IST" duration-ms="10172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProcessDivery -->
+        <test-method signature="NavigatetoURL()[pri:5, instance:test.testng.DemoTest@bae7dc0]" started-at="2023-09-12T21:17:19 IST" name="NavigatetoURL" finished-at="2023-09-12T21:17:21 IST" duration-ms="2453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigatetoURL -->
+        <test-method signature="BrowserCloseL()[pri:6, instance:test.testng.DemoTest@bae7dc0]" started-at="2023-09-12T21:17:21 IST" name="BrowserCloseL" finished-at="2023-09-12T21:17:21 IST" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserCloseL -->
+      </class> <!-- test.testng.DemoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite started-at="2023-09-12T21:17:21 IST" name="Suite (0)" finished-at="2023-09-12T21:18:14 IST" duration-ms="52414">
+    <groups>
+    </groups>
+    <test started-at="2023-09-12T21:17:21 IST" name="Test2" finished-at="2023-09-12T21:18:14 IST" duration-ms="52414">
+      <class name="test.testng.DemoseTest">
+        <test-method signature="BaseURLTest()[pri:1, instance:test.testng.DemoseTest@791f145a]" started-at="2023-09-12T21:17:21 IST" name="BaseURLTest" finished-at="2023-09-12T21:17:25 IST" duration-ms="3665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseURLTest -->
+        <test-method signature="CookiePopupTest()[pri:2, instance:test.testng.DemoseTest@791f145a]" started-at="2023-09-12T21:17:25 IST" name="CookiePopupTest" finished-at="2023-09-12T21:17:40 IST" duration-ms="15169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CookiePopupTest -->
+        <test-method signature="ProductButtonTest()[pri:3, instance:test.testng.DemoseTest@791f145a]" started-at="2023-09-12T21:17:40 IST" name="ProductButtonTest" finished-at="2023-09-12T21:17:51 IST" duration-ms="10227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductButtonTest -->
+        <test-method signature="ProductButtonHoverOverTest()[pri:4, instance:test.testng.DemoseTest@791f145a]" started-at="2023-09-12T21:17:51 IST" name="ProductButtonHoverOverTest" finished-at="2023-09-12T21:18:14 IST" duration-ms="23269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductButtonHoverOverTest -->
+        <test-method signature="FirstNameLabelTest()[pri:5, instance:test.testng.DemoseTest@791f145a]" started-at="2023-09-12T21:18:14 IST" name="FirstNameLabelTest" finished-at="2023-09-12T21:18:14 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstNameLabelTest -->
+        <test-method signature="LastNameLabelTest()[pri:6, instance:test.testng.DemoseTest@791f145a]" started-at="2023-09-12T21:18:14 IST" name="LastNameLabelTest" finished-at="2023-09-12T21:18:14 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LastNameLabelTest -->
+      </class> <!-- test.testng.DemoseTest -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite (0) -->
+</testng-results>
