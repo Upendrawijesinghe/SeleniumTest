@@ -32,6 +32,7 @@ public class Demo {
 		driver.findElement(By.xpath("//*[@id=\"topNavbar\"]/div/div/div[2]/ul/li[1]/div/div/div/div/div[3]/ul/li[1]/ul/li/a")).click();
 						
 		driver.close();
+//
 	}
 
 }
