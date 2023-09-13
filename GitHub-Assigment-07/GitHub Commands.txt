@@ -1,0 +1,588 @@
+Microsoft Windows [Version 10.0.19044.2130]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Administrator>git --version
+git version 2.42.0.windows.2
+
+C:\Users\Administrator>git config --global user.name "Upendra Wijesinghe"
+
+C:\Users\Administrator>git config --global user.email "upendrawijesinghe@gmail.com"
+
+C:\Users\Administrator>git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+user.name=Upendra Wijesinghe
+user.email=upendrawijesinghe@gmail.com
+
+C:\Users\Administrator>cd\
+
+C:\>cd Gitrepo
+
+C:\GitRepo>dir
+ Volume in drive C has no label.
+ Volume Serial Number is B6AA-8F4C
+
+ Directory of C:\GitRepo
+
+12-09-2023  23:05    <DIR>          .
+12-09-2023  23:05    <DIR>          ..
+12-09-2023  23:05    <DIR>          TestNGSample
+12-09-2023  23:05    <DIR>          Testxpath
+               0 File(s)              0 bytes
+               4 Dir(s)  104,270,675,968 bytes free
+
+C:\GitRepo>init git
+'init' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\GitRepo>git init
+Initialized empty Git repository in C:/GitRepo/.git/
+
+C:\GitRepo>dir
+ Volume in drive C has no label.
+ Volume Serial Number is B6AA-8F4C
+
+ Directory of C:\GitRepo
+
+12-09-2023  23:06    <DIR>          .
+12-09-2023  23:06    <DIR>          ..
+12-09-2023  23:05    <DIR>          TestNGSample
+12-09-2023  23:05    <DIR>          Testxpath
+               0 File(s)              0 bytes
+               4 Dir(s)  104,270,053,376 bytes free
+
+C:\GitRepo>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        TestNGSample/
+        Testxpath/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\GitRepo>git add -A
+warning: in the working copy of 'TestNGSample/.metadata/.log', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.1.200.20230523-2106.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/src/.metadata/.log', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/src/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.16.0.20200318-1040.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/target/surefire-reports/Suite (0)/Test2.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/target/surefire-reports/Suite (0)/Test2.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/target/surefire-reports/Suite/Test.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/target/surefire-reports/Suite/Test.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/target/surefire-reports/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/target/surefire-reports/jquery-3.6.0.min.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/target/surefire-reports/junitreports/TEST-test.testng.DemoTest.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/target/surefire-reports/junitreports/TEST-test.testng.DemoseTest.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/target/surefire-reports/old/Suite (0)/classes.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/target/surefire-reports/old/Suite (0)/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/target/surefire-reports/old/Suite (0)/main.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/target/surefire-reports/old/Suite (0)/methods-alphabetical.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/target/surefire-reports/old/Suite (0)/methods-not-run.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/target/surefire-reports/old/Suite (0)/methods.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/target/surefire-reports/old/Suite (0)/toc.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/target/surefire-reports/old/Suite/classes.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/target/surefire-reports/old/Suite/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/target/surefire-reports/old/Suite/main.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/target/surefire-reports/old/Suite/methods-alphabetical.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/target/surefire-reports/old/Suite/methods-not-run.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/target/surefire-reports/old/Suite/methods.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/target/surefire-reports/old/Suite/toc.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/target/surefire-reports/old/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/target/surefire-reports/testng-reports.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/target/surefire-reports/testng-reports.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/target/surefire-reports/testng-reports1.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/target/surefire-reports/testng-reports2.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/target/surefire-reports/testng.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/test-output/Default suite/Default test.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/test-output/Default suite/Default test.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/test-output/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/test-output/jquery-3.6.0.min.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/test-output/junitreports/TEST-Demo.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/test-output/junitreports/TEST-Demose.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/test-output/junitreports/TEST-NewTest.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/test-output/junitreports/TEST-test.testng.DemoTest.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/test-output/junitreports/TEST-test.testng.DemoseTest.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/test-output/old/Default suite/classes.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/test-output/old/Default suite/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/test-output/old/Default suite/main.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/test-output/old/Default suite/methods-alphabetical.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/test-output/old/Default suite/methods-not-run.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/test-output/old/Default suite/methods.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/test-output/old/Default suite/toc.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/test-output/old/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/test-output/testng-reports.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/test-output/testng-reports.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/test-output/testng-reports1.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/test-output/testng-reports2.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TestNGSample/test-output/testng.css', LF will be replaced by CRLF the next time Git touches it
+
+C:\GitRepo>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   TestNGSample/.classpath
+        new file:   TestNGSample/.metadata/.lock
+        new file:   TestNGSample/.metadata/.log
+        new file:   TestNGSample/.metadata/.mylyn/.taskListIndex/segments_1
+        new file:   TestNGSample/.metadata/.mylyn/.taskListIndex/write.lock
+        new file:   TestNGSample/.metadata/.mylyn/repositories.xml.zip
+        new file:   TestNGSample/.metadata/.mylyn/tasks.xml.zip
+        new file:   TestNGSample/.metadata/.plugins/org.eclipse.core.resources/.projects/.org.eclipse.egit.core.cmp/.location
+        new file:   TestNGSample/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version
+        new file:   TestNGSample/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index
+        new file:   TestNGSample/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version
+        new file:   TestNGSample/.metadata/.plugins/org.eclipse.core.resources/.root/4.tree
+        new file:   TestNGSample/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+        new file:   TestNGSample/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs
+        new file:   TestNGSample/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs
+        new file:   TestNGSample/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jsch.core.prefs
+        new file:   TestNGSample/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs
+        new file:   TestNGSample/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs
+        new file:   TestNGSample/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs
+        new file:   TestNGSample/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs
+        new file:   TestNGSample/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs
+        new file:   TestNGSample/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs
+        new file:   TestNGSample/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs
+        new file:   TestNGSample/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+        new file:   TestNGSample/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.project
+        new file:   TestNGSample/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.settings/org.eclipse.core.resources.prefs
+        new file:   TestNGSample/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache
+        new file:   TestNGSample/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache
+        new file:   TestNGSample/.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt
+        new file:   TestNGSample/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache
+        new file:   TestNGSample/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat
+        new file:   TestNGSample/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml
+        new file:   TestNGSample/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml
+        new file:   TestNGSample/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml
+        new file:   TestNGSample/.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser
+        new file:   TestNGSample/.metadata/.plugins/org.eclipse.m2e.logback/0.log
+        new file:   TestNGSample/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.1.200.20230523-2106.xml
+        new file:   TestNGSample/.metadata/.plugins/org.eclipse.mylyn.github.ui/avatars.ser
+        new file:   TestNGSample/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup
+        new file:   TestNGSample/.metadata/.plugins/org.eclipse.tips.ide/dialog_settings.xml
+        new file:   TestNGSample/.metadata/.plugins/org.eclipse.ui.intro/introstate
+        new file:   TestNGSample/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml
+        new file:   TestNGSample/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml
+        new file:   TestNGSample/.metadata/version.ini
+        new file:   TestNGSample/.project
+        new file:   TestNGSample/.settings/org.eclipse.jdt.core.prefs
+        new file:   TestNGSample/.settings/org.eclipse.m2e.core.prefs
+        new file:   TestNGSample/.settings/org.testng.eclipse.maven.prefs
+        new file:   TestNGSample/pom.xml
+        new file:   TestNGSample/src/.metadata/.lock
+        new file:   TestNGSample/src/.metadata/.log
+        new file:   TestNGSample/src/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version
+        new file:   TestNGSample/src/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index
+        new file:   TestNGSample/src/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version
+        new file:   TestNGSample/src/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree
+        new file:   TestNGSample/src/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+        new file:   TestNGSample/src/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs
+        new file:   TestNGSample/src/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs
+        new file:   TestNGSample/src/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jsch.core.prefs
+        new file:   TestNGSample/src/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs
+        new file:   TestNGSample/src/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs
+        new file:   TestNGSample/src/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs
+        new file:   TestNGSample/src/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs
+        new file:   TestNGSample/src/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.urischeme.prefs
+        new file:   TestNGSample/src/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+        new file:   TestNGSample/src/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache
+        new file:   TestNGSample/src/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache
+        new file:   TestNGSample/src/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache
+        new file:   TestNGSample/src/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat
+        new file:   TestNGSample/src/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml
+        new file:   TestNGSample/src/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml
+        new file:   TestNGSample/src/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml
+        new file:   TestNGSample/src/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log
+        new file:   TestNGSample/src/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.16.0.20200318-1040.xml
+        new file:   TestNGSample/src/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup
+        new file:   TestNGSample/src/.metadata/.plugins/org.eclipse.tips.ide/dialog_settings.xml
+        new file:   TestNGSample/src/.metadata/.plugins/org.eclipse.tm.terminal.view.ui/.executables/data.properties
+        new file:   TestNGSample/src/.metadata/.plugins/org.eclipse.ui.intro/introstate
+        new file:   TestNGSample/src/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml
+        new file:   TestNGSample/src/.metadata/version.ini
+        new file:   TestNGSample/src/main/java/test/testng/DemoTest.java
+        new file:   TestNGSample/src/main/java/test/testng/DemoseTest.java
+        new file:   TestNGSample/target/classes/test/testng/DemoTest.class
+        new file:   TestNGSample/target/classes/test/testng/DemoseTest.class
+        new file:   TestNGSample/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+        new file:   TestNGSample/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+        new file:   TestNGSample/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+        new file:   TestNGSample/target/surefire-reports/2023-09-12T21-16-36_043-jvmRun1.dump
+        new file:   TestNGSample/target/surefire-reports/Suite (0)/Test2.html
+        new file:   TestNGSample/target/surefire-reports/Suite (0)/Test2.xml
+        new file:   TestNGSample/target/surefire-reports/Suite (0)/testng-failed.xml
+        new file:   TestNGSample/target/surefire-reports/Suite/Test.html
+        new file:   TestNGSample/target/surefire-reports/Suite/Test.xml
+        new file:   TestNGSample/target/surefire-reports/Suite/testng-failed.xml
+        new file:   TestNGSample/target/surefire-reports/TEST-TestSuite.xml
+        new file:   TestNGSample/target/surefire-reports/TestSuite.txt
+        new file:   TestNGSample/target/surefire-reports/bullet_point.png
+        new file:   TestNGSample/target/surefire-reports/collapseall.gif
+        new file:   TestNGSample/target/surefire-reports/emailable-report.html
+        new file:   TestNGSample/target/surefire-reports/failed.png
+        new file:   TestNGSample/target/surefire-reports/index.html
+        new file:   TestNGSample/target/surefire-reports/jquery-3.6.0.min.js
+        new file:   TestNGSample/target/surefire-reports/junitreports/TEST-test.testng.DemoTest.xml
+        new file:   TestNGSample/target/surefire-reports/junitreports/TEST-test.testng.DemoseTest.xml
+        new file:   TestNGSample/target/surefire-reports/navigator-bullet.png
+        new file:   TestNGSample/target/surefire-reports/old/Suite (0)/Test2.properties
+        new file:   TestNGSample/target/surefire-reports/old/Suite (0)/classes.html
+        new file:   TestNGSample/target/surefire-reports/old/Suite (0)/groups.html
+        new file:   TestNGSample/target/surefire-reports/old/Suite (0)/index.html
+        new file:   TestNGSample/target/surefire-reports/old/Suite (0)/main.html
+        new file:   TestNGSample/target/surefire-reports/old/Suite (0)/methods-alphabetical.html
+        new file:   TestNGSample/target/surefire-reports/old/Suite (0)/methods-not-run.html
+        new file:   TestNGSample/target/surefire-reports/old/Suite (0)/methods.html
+        new file:   TestNGSample/target/surefire-reports/old/Suite (0)/reporter-output.html
+        new file:   TestNGSample/target/surefire-reports/old/Suite (0)/testng.xml.html
+        new file:   TestNGSample/target/surefire-reports/old/Suite (0)/toc.html
+        new file:   TestNGSample/target/surefire-reports/old/Suite/Test.properties
+        new file:   TestNGSample/target/surefire-reports/old/Suite/classes.html
+        new file:   TestNGSample/target/surefire-reports/old/Suite/groups.html
+        new file:   TestNGSample/target/surefire-reports/old/Suite/index.html
+        new file:   TestNGSample/target/surefire-reports/old/Suite/main.html
+        new file:   TestNGSample/target/surefire-reports/old/Suite/methods-alphabetical.html
+        new file:   TestNGSample/target/surefire-reports/old/Suite/methods-not-run.html
+        new file:   TestNGSample/target/surefire-reports/old/Suite/methods.html
+        new file:   TestNGSample/target/surefire-reports/old/Suite/reporter-output.html
+        new file:   TestNGSample/target/surefire-reports/old/Suite/testng.xml.html
+        new file:   TestNGSample/target/surefire-reports/old/Suite/toc.html
+        new file:   TestNGSample/target/surefire-reports/old/index.html
+        new file:   TestNGSample/target/surefire-reports/passed.png
+        new file:   TestNGSample/target/surefire-reports/skipped.png
+        new file:   TestNGSample/target/surefire-reports/testng-failed.xml
+        new file:   TestNGSample/target/surefire-reports/testng-reports.css
+        new file:   TestNGSample/target/surefire-reports/testng-reports.js
+        new file:   TestNGSample/target/surefire-reports/testng-reports1.css
+        new file:   TestNGSample/target/surefire-reports/testng-reports2.js
+        new file:   TestNGSample/target/surefire-reports/testng-results.xml
+        new file:   TestNGSample/target/surefire-reports/testng.css
+        new file:   TestNGSample/test-output/Default suite/Default test.html
+        new file:   TestNGSample/test-output/Default suite/Default test.xml
+        new file:   TestNGSample/test-output/Default suite/testng-failed.xml
+        new file:   TestNGSample/test-output/bullet_point.png
+        new file:   TestNGSample/test-output/collapseall.gif
+        new file:   TestNGSample/test-output/emailable-report.html
+        new file:   TestNGSample/test-output/failed.png
+        new file:   TestNGSample/test-output/index.html
+        new file:   TestNGSample/test-output/jquery-3.6.0.min.js
+        new file:   TestNGSample/test-output/junitreports/TEST-Demo.xml
+        new file:   TestNGSample/test-output/junitreports/TEST-Demose.xml
+        new file:   TestNGSample/test-output/junitreports/TEST-NewTest.xml
+        new file:   TestNGSample/test-output/junitreports/TEST-test.testng.DemoTest.xml
+        new file:   TestNGSample/test-output/junitreports/TEST-test.testng.DemoseTest.xml
+        new file:   TestNGSample/test-output/navigator-bullet.png
+        new file:   TestNGSample/test-output/old/Default suite/Default test.properties
+        new file:   TestNGSample/test-output/old/Default suite/classes.html
+        new file:   TestNGSample/test-output/old/Default suite/groups.html
+        new file:   TestNGSample/test-output/old/Default suite/index.html
+        new file:   TestNGSample/test-output/old/Default suite/main.html
+        new file:   TestNGSample/test-output/old/Default suite/methods-alphabetical.html
+        new file:   TestNGSample/test-output/old/Default suite/methods-not-run.html
+        new file:   TestNGSample/test-output/old/Default suite/methods.html
+        new file:   TestNGSample/test-output/old/Default suite/reporter-output.html
+        new file:   TestNGSample/test-output/old/Default suite/testng.xml.html
+        new file:   TestNGSample/test-output/old/Default suite/toc.html
+        new file:   TestNGSample/test-output/old/index.html
+        new file:   TestNGSample/test-output/passed.png
+        new file:   TestNGSample/test-output/skipped.png
+        new file:   TestNGSample/test-output/testng-failed.xml
+        new file:   TestNGSample/test-output/testng-reports.css
+        new file:   TestNGSample/test-output/testng-reports.js
+        new file:   TestNGSample/test-output/testng-reports1.css
+        new file:   TestNGSample/test-output/testng-reports2.js
+        new file:   TestNGSample/test-output/testng-results.xml
+        new file:   TestNGSample/test-output/testng.css
+        new file:   TestNGSample/testng.xml
+        new file:   TestNGSample/testng2.xml
+        new file:   Testxpath/.classpath
+        new file:   Testxpath/.project
+        new file:   Testxpath/.settings/org.eclipse.jdt.core.prefs
+        new file:   Testxpath/bin/com/test/Demo.class
+        new file:   Testxpath/bin/com/test/Demose.class
+        new file:   Testxpath/src/com/test/Demo.java
+        new file:   Testxpath/src/com/test/Demose.java
+
+
+C:\GitRepo>git commit -m"initial commit"
+[master (root-commit) 471702d] initial commit
+ 182 files changed, 9660 insertions(+)
+ create mode 100644 TestNGSample/.classpath
+ create mode 100644 TestNGSample/.metadata/.lock
+ create mode 100644 TestNGSample/.metadata/.log
+ create mode 100644 TestNGSample/.metadata/.mylyn/.taskListIndex/segments_1
+ create mode 100644 TestNGSample/.metadata/.mylyn/.taskListIndex/write.lock
+ create mode 100644 TestNGSample/.metadata/.mylyn/repositories.xml.zip
+ create mode 100644 TestNGSample/.metadata/.mylyn/tasks.xml.zip
+ create mode 100644 TestNGSample/.metadata/.plugins/org.eclipse.core.resources/.projects/.org.eclipse.egit.core.cmp/.location
+ create mode 100644 TestNGSample/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version
+ create mode 100644 TestNGSample/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index
+ create mode 100644 TestNGSample/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version
+ create mode 100644 TestNGSample/.metadata/.plugins/org.eclipse.core.resources/.root/4.tree
+ create mode 100644 TestNGSample/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+ create mode 100644 TestNGSample/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs
+ create mode 100644 TestNGSample/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs
+ create mode 100644 TestNGSample/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jsch.core.prefs
+ create mode 100644 TestNGSample/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs
+ create mode 100644 TestNGSample/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs
+ create mode 100644 TestNGSample/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs
+ create mode 100644 TestNGSample/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs
+ create mode 100644 TestNGSample/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs
+ create mode 100644 TestNGSample/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs
+ create mode 100644 TestNGSample/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs
+ create mode 100644 TestNGSample/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+ create mode 100644 TestNGSample/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.project
+ create mode 100644 TestNGSample/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.settings/org.eclipse.core.resources.prefs
+ create mode 100644 TestNGSample/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache
+ create mode 100644 TestNGSample/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache
+ create mode 100644 TestNGSample/.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt
+ create mode 100644 TestNGSample/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache
+ create mode 100644 TestNGSample/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat
+ create mode 100644 TestNGSample/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml
+ create mode 100644 TestNGSample/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml
+ create mode 100644 TestNGSample/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml
+ create mode 100644 TestNGSample/.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser
+ create mode 100644 TestNGSample/.metadata/.plugins/org.eclipse.m2e.logback/0.log
+ create mode 100644 TestNGSample/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.1.200.20230523-2106.xml
+ create mode 100644 TestNGSample/.metadata/.plugins/org.eclipse.mylyn.github.ui/avatars.ser
+ create mode 100644 TestNGSample/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup
+ create mode 100644 TestNGSample/.metadata/.plugins/org.eclipse.tips.ide/dialog_settings.xml
+ create mode 100644 TestNGSample/.metadata/.plugins/org.eclipse.ui.intro/introstate
+ create mode 100644 TestNGSample/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml
+ create mode 100644 TestNGSample/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml
+ create mode 100644 TestNGSample/.metadata/version.ini
+ create mode 100644 TestNGSample/.project
+ create mode 100644 TestNGSample/.settings/org.eclipse.jdt.core.prefs
+ create mode 100644 TestNGSample/.settings/org.eclipse.m2e.core.prefs
+ create mode 100644 TestNGSample/.settings/org.testng.eclipse.maven.prefs
+ create mode 100644 TestNGSample/pom.xml
+ create mode 100644 TestNGSample/src/.metadata/.lock
+ create mode 100644 TestNGSample/src/.metadata/.log
+ create mode 100644 TestNGSample/src/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version
+ create mode 100644 TestNGSample/src/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index
+ create mode 100644 TestNGSample/src/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version
+ create mode 100644 TestNGSample/src/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree
+ create mode 100644 TestNGSample/src/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+ create mode 100644 TestNGSample/src/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs
+ create mode 100644 TestNGSample/src/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs
+ create mode 100644 TestNGSample/src/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jsch.core.prefs
+ create mode 100644 TestNGSample/src/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs
+ create mode 100644 TestNGSample/src/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs
+ create mode 100644 TestNGSample/src/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs
+ create mode 100644 TestNGSample/src/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs
+ create mode 100644 TestNGSample/src/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.urischeme.prefs
+ create mode 100644 TestNGSample/src/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+ create mode 100644 TestNGSample/src/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache
+ create mode 100644 TestNGSample/src/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache
+ create mode 100644 TestNGSample/src/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache
+ create mode 100644 TestNGSample/src/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat
+ create mode 100644 TestNGSample/src/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml
+ create mode 100644 TestNGSample/src/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml
+ create mode 100644 TestNGSample/src/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml
+ create mode 100644 TestNGSample/src/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log
+ create mode 100644 TestNGSample/src/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.16.0.20200318-1040.xml
+ create mode 100644 TestNGSample/src/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup
+ create mode 100644 TestNGSample/src/.metadata/.plugins/org.eclipse.tips.ide/dialog_settings.xml
+ create mode 100644 TestNGSample/src/.metadata/.plugins/org.eclipse.tm.terminal.view.ui/.executables/data.properties
+ create mode 100644 TestNGSample/src/.metadata/.plugins/org.eclipse.ui.intro/introstate
+ create mode 100644 TestNGSample/src/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml
+ create mode 100644 TestNGSample/src/.metadata/version.ini
+ create mode 100644 TestNGSample/src/main/java/test/testng/DemoTest.java
+ create mode 100644 TestNGSample/src/main/java/test/testng/DemoseTest.java
+ create mode 100644 TestNGSample/target/classes/test/testng/DemoTest.class
+ create mode 100644 TestNGSample/target/classes/test/testng/DemoseTest.class
+ create mode 100644 TestNGSample/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+ create mode 100644 TestNGSample/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+ create mode 100644 TestNGSample/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+ create mode 100644 TestNGSample/target/surefire-reports/2023-09-12T21-16-36_043-jvmRun1.dump
+ create mode 100644 TestNGSample/target/surefire-reports/Suite (0)/Test2.html
+ create mode 100644 TestNGSample/target/surefire-reports/Suite (0)/Test2.xml
+ create mode 100644 TestNGSample/target/surefire-reports/Suite (0)/testng-failed.xml
+ create mode 100644 TestNGSample/target/surefire-reports/Suite/Test.html
+ create mode 100644 TestNGSample/target/surefire-reports/Suite/Test.xml
+ create mode 100644 TestNGSample/target/surefire-reports/Suite/testng-failed.xml
+ create mode 100644 TestNGSample/target/surefire-reports/TEST-TestSuite.xml
+ create mode 100644 TestNGSample/target/surefire-reports/TestSuite.txt
+ create mode 100644 TestNGSample/target/surefire-reports/bullet_point.png
+ create mode 100644 TestNGSample/target/surefire-reports/collapseall.gif
+ create mode 100644 TestNGSample/target/surefire-reports/emailable-report.html
+ create mode 100644 TestNGSample/target/surefire-reports/failed.png
+ create mode 100644 TestNGSample/target/surefire-reports/index.html
+ create mode 100644 TestNGSample/target/surefire-reports/jquery-3.6.0.min.js
+ create mode 100644 TestNGSample/target/surefire-reports/junitreports/TEST-test.testng.DemoTest.xml
+ create mode 100644 TestNGSample/target/surefire-reports/junitreports/TEST-test.testng.DemoseTest.xml
+ create mode 100644 TestNGSample/target/surefire-reports/navigator-bullet.png
+ create mode 100644 TestNGSample/target/surefire-reports/old/Suite (0)/Test2.properties
+ create mode 100644 TestNGSample/target/surefire-reports/old/Suite (0)/classes.html
+ create mode 100644 TestNGSample/target/surefire-reports/old/Suite (0)/groups.html
+ create mode 100644 TestNGSample/target/surefire-reports/old/Suite (0)/index.html
+ create mode 100644 TestNGSample/target/surefire-reports/old/Suite (0)/main.html
+ create mode 100644 TestNGSample/target/surefire-reports/old/Suite (0)/methods-alphabetical.html
+ create mode 100644 TestNGSample/target/surefire-reports/old/Suite (0)/methods-not-run.html
+ create mode 100644 TestNGSample/target/surefire-reports/old/Suite (0)/methods.html
+ create mode 100644 TestNGSample/target/surefire-reports/old/Suite (0)/reporter-output.html
+ create mode 100644 TestNGSample/target/surefire-reports/old/Suite (0)/testng.xml.html
+ create mode 100644 TestNGSample/target/surefire-reports/old/Suite (0)/toc.html
+ create mode 100644 TestNGSample/target/surefire-reports/old/Suite/Test.properties
+ create mode 100644 TestNGSample/target/surefire-reports/old/Suite/classes.html
+ create mode 100644 TestNGSample/target/surefire-reports/old/Suite/groups.html
+ create mode 100644 TestNGSample/target/surefire-reports/old/Suite/index.html
+ create mode 100644 TestNGSample/target/surefire-reports/old/Suite/main.html
+ create mode 100644 TestNGSample/target/surefire-reports/old/Suite/methods-alphabetical.html
+ create mode 100644 TestNGSample/target/surefire-reports/old/Suite/methods-not-run.html
+ create mode 100644 TestNGSample/target/surefire-reports/old/Suite/methods.html
+ create mode 100644 TestNGSample/target/surefire-reports/old/Suite/reporter-output.html
+ create mode 100644 TestNGSample/target/surefire-reports/old/Suite/testng.xml.html
+ create mode 100644 TestNGSample/target/surefire-reports/old/Suite/toc.html
+ create mode 100644 TestNGSample/target/surefire-reports/old/index.html
+ create mode 100644 TestNGSample/target/surefire-reports/passed.png
+ create mode 100644 TestNGSample/target/surefire-reports/skipped.png
+ create mode 100644 TestNGSample/target/surefire-reports/testng-failed.xml
+ create mode 100644 TestNGSample/target/surefire-reports/testng-reports.css
+ create mode 100644 TestNGSample/target/surefire-reports/testng-reports.js
+ create mode 100644 TestNGSample/target/surefire-reports/testng-reports1.css
+ create mode 100644 TestNGSample/target/surefire-reports/testng-reports2.js
+ create mode 100644 TestNGSample/target/surefire-reports/testng-results.xml
+ create mode 100644 TestNGSample/target/surefire-reports/testng.css
+ create mode 100644 TestNGSample/test-output/Default suite/Default test.html
+ create mode 100644 TestNGSample/test-output/Default suite/Default test.xml
+ create mode 100644 TestNGSample/test-output/Default suite/testng-failed.xml
+ create mode 100644 TestNGSample/test-output/bullet_point.png
+ create mode 100644 TestNGSample/test-output/collapseall.gif
+ create mode 100644 TestNGSample/test-output/emailable-report.html
+ create mode 100644 TestNGSample/test-output/failed.png
+ create mode 100644 TestNGSample/test-output/index.html
+ create mode 100644 TestNGSample/test-output/jquery-3.6.0.min.js
+ create mode 100644 TestNGSample/test-output/junitreports/TEST-Demo.xml
+ create mode 100644 TestNGSample/test-output/junitreports/TEST-Demose.xml
+ create mode 100644 TestNGSample/test-output/junitreports/TEST-NewTest.xml
+ create mode 100644 TestNGSample/test-output/junitreports/TEST-test.testng.DemoTest.xml
+ create mode 100644 TestNGSample/test-output/junitreports/TEST-test.testng.DemoseTest.xml
+ create mode 100644 TestNGSample/test-output/navigator-bullet.png
+ create mode 100644 TestNGSample/test-output/old/Default suite/Default test.properties
+ create mode 100644 TestNGSample/test-output/old/Default suite/classes.html
+ create mode 100644 TestNGSample/test-output/old/Default suite/groups.html
+ create mode 100644 TestNGSample/test-output/old/Default suite/index.html
+ create mode 100644 TestNGSample/test-output/old/Default suite/main.html
+ create mode 100644 TestNGSample/test-output/old/Default suite/methods-alphabetical.html
+ create mode 100644 TestNGSample/test-output/old/Default suite/methods-not-run.html
+ create mode 100644 TestNGSample/test-output/old/Default suite/methods.html
+ create mode 100644 TestNGSample/test-output/old/Default suite/reporter-output.html
+ create mode 100644 TestNGSample/test-output/old/Default suite/testng.xml.html
+ create mode 100644 TestNGSample/test-output/old/Default suite/toc.html
+ create mode 100644 TestNGSample/test-output/old/index.html
+ create mode 100644 TestNGSample/test-output/passed.png
+ create mode 100644 TestNGSample/test-output/skipped.png
+ create mode 100644 TestNGSample/test-output/testng-failed.xml
+ create mode 100644 TestNGSample/test-output/testng-reports.css
+ create mode 100644 TestNGSample/test-output/testng-reports.js
+ create mode 100644 TestNGSample/test-output/testng-reports1.css
+ create mode 100644 TestNGSample/test-output/testng-reports2.js
+ create mode 100644 TestNGSample/test-output/testng-results.xml
+ create mode 100644 TestNGSample/test-output/testng.css
+ create mode 100644 TestNGSample/testng.xml
+ create mode 100644 TestNGSample/testng2.xml
+ create mode 100644 Testxpath/.classpath
+ create mode 100644 Testxpath/.project
+ create mode 100644 Testxpath/.settings/org.eclipse.jdt.core.prefs
+ create mode 100644 Testxpath/bin/com/test/Demo.class
+ create mode 100644 Testxpath/bin/com/test/Demose.class
+ create mode 100644 Testxpath/src/com/test/Demo.java
+ create mode 100644 Testxpath/src/com/test/Demose.java
+
+C:\GitRepo>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\GitRepo>git clone https://github.com/Upendrawijesinghe/selenium-test
+Cloning into 'selenium-test'...
+warning: You appear to have cloned an empty repository.
+
+C:\GitRepo>git clone https://github.com/Upendrawijesinghe/selenium-test.git .
+fatal: destination path '.' already exists and is not an empty directory.
+
+C:\GitRepo>git clone https://github.com/Upendrawijesinghe/selenium-test.git
+fatal: destination path 'selenium-test' already exists and is not an empty directory.
+
+C:\GitRepo>git diff
+
+C:\GitRepo>git remote -v
+
+C:\GitRepo>git add -A
+error: 'selenium-test/' does not have a commit checked out
+fatal: adding files failed
+
+C:\GitRepo>cd\
+
+C:\>cd GitRepo2
+
+C:\GitRepo2>dir
+ Volume in drive C has no label.
+ Volume Serial Number is B6AA-8F4C
+
+ Directory of C:\GitRepo2
+
+12-09-2023  23:30    <DIR>          .
+12-09-2023  23:30    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  104,259,944,448 bytes free
+
+C:\GitRepo2>git clone https://github.com/Upendrawijesinghe/SeleniumTest .
+Cloning into '.'...
+remote: Enumerating objects: 123, done.
+remote: Counting objects: 100% (15/15), done.
+remote: Compressing objects: 100% (11/11), done.
+Receiving objects: 100% (123/123), 68.07 KiB | 2.20 MiB/s, done.
+
+Resolving deltas: 100% (40/40), done.
+
+C:\GitRepo2>git diff
+
+C:\GitRepo2>git diff
+diff --git a/Testxpath/src/com/test/Demo.java b/Testxpath/src/com/test/Demo.java
+index 45f5618..19bcf82 100644
+--- a/Testxpath/src/com/test/Demo.java
++++ b/Testxpath/src/com/test/Demo.java
+@@ -32,6 +32,7 @@ public class Demo {
+                driver.findElement(By.xpath("//*[@id=\"topNavbar\"]/div/div/div[2]/ul/li[1]/div/div/div/div/div[3]/ul/li[1]/ul/li/a")).click();
+
+                driver.close();
++//^M
+        }
+
+ }
+
+C:\GitRepo2>
+
+C:\GitRepo2>
+
+C:\GitRepo2>
+
+C:\GitRepo2>git remote -v
+origin  https://github.com/Upendrawijesinghe/SeleniumTest (fetch)
+origin  https://github.com/Upendrawijesinghe/SeleniumTest (push)
+
+C:\GitRepo2>
